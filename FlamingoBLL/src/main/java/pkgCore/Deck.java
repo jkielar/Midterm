@@ -19,6 +19,10 @@ public class Deck {
 		Collections.shuffle(cardsInDeck);
 	}
 
+	public Deck(int i) {
+		// TODO Auto-generated constructor stub
+	}
+
 	public Card Draw() {
 
 		return cardsInDeck.remove(0);
