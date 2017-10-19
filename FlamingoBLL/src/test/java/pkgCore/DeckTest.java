@@ -23,7 +23,7 @@ public class DeckTest {
 		
 		for (int i = 0; i < deck.length; i++) 
 			deck[i] = i;
-		
+ 		
 		for (int i = 0; i < deck.length; i++) {
 			int index = (int) (Math.random() * deck.length);
 			int temp = deck[i];
